@@ -7,6 +7,7 @@ import Lista from './components/Lista';
 import Evento from './components/Evento';
 import Form from './components/Form';
 import FormUseStates from './components/FormUseStates';
+import EventoMetodoNaProps from './components/EventoMetodoNaProps';
 
 function App() {
 
@@ -38,6 +39,8 @@ function App() {
 
       <Form/>
       <FormUseStates/>
+
+      <EventoMetodoNaProps/>
     </div>
 
     
