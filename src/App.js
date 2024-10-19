@@ -4,6 +4,9 @@ import Pessoa from './components/Pessoa';
 import Pessoa2 from './components/Pessoa2';
 import SayMyName from './components/SayMyName';
 import Lista from './components/Lista';
+import Evento from './components/Evento';
+import Form from './components/Form';
+import FormUseStates from './components/FormUseStates';
 
 function App() {
 
@@ -29,6 +32,12 @@ function App() {
       />
 
       <Lista/>
+
+      <Evento numero={1}/>
+      <Evento numero={2}/>
+
+      <Form/>
+      <FormUseStates/>
     </div>
 
     
