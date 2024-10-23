@@ -8,8 +8,12 @@ import Evento from './components/Evento';
 import Form from './components/Form';
 import FormUseStates from './components/FormUseStates';
 import EventoMetodoNaProps from './components/EventoMetodoNaProps';
+import Condicional from './components/Condicional';
+import OutraLista from './components/OutraLista';
 
 function App() {
+
+  const meusItens = ['React', 'Vue', 'Angular']
 
   const nome = 'Maria'
 
@@ -41,6 +45,13 @@ function App() {
       <FormUseStates/>
 
       <EventoMetodoNaProps/>
+
+      <h1>Renderização Condicional</h1>
+      <Condicional/>
+
+      <h1>Renderização de Listas</h1>
+      <OutraLista itens={meusItens}/>   {/*A lista "meusItens" está no início da função App. */}
+      <OutraLista itens={[]}/>
     </div>
 
     
